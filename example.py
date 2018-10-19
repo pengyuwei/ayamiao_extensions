@@ -1,5 +1,6 @@
-#!/usr/bin/env python
-#coding=utf8
+# !/usr/bin/env python
+# coding=utf8
+
 
 def init():
     cmds = []
@@ -7,10 +8,12 @@ def init():
     cmds.append([u"test2", "on_test2", None])
     return cmds
 
+
 # msg:对话的文本内容
 def on_test1(raw, msg, db, config):
     print "test1"
     return
+
 
 def on_test2(raw, msg, db, config):
     print "test2"
